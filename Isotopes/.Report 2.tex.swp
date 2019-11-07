@@ -1,0 +1,115 @@
+%++++++++++++++++++++++++++++++++++++++++
+% Don't modify this section unless you know what you're doing!
+\documentclass[letterpaper,12pt]{article}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[section]{placeins}
+
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+%++++++++++++++++++++++++++++++++++++++++
+\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
+
+
+\begin{document}
+
+\title{Sir Michael Craig-Martin RA}
+\author{Max Sepulveda}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+This paper presents my research on one of the artist of this century.\\ The artist I chose for this paper is Sir Michael Craig-Martin. He is an American artist, well known for his colourful paintings.
+
+\end{abstract}
+
+
+\section{His history}
+
+Michael Craig-Martin grew up and was educated in the United States. He studied Fine Art at the Yale University School of Art and Architecture and, on completion of his studies in 1966, he moved to London where he has lived ever since. His early work drew together a variety of objects and materials. An Oak Tree, 1973, is one of his best known early works. His more recent work, which includes painting, printmaking, installations projections and drawing, continues to depict common place objects.
+\\
+
+Craig-Martin had his first one man exhibition at the Rowan Gallery in London in 1969. Since then he has shown regularly both in the UK and abroad. in 1991 he showed wall drawings at the Museum of Modern Art in New York. Group exhibitions include the British conceptual exhibition at the Hayward Gallery in 1972, The New Art, and the 1996 exhibition Un siecle de sculpture anglaise at the Jeu de Paume in Paris. He was the British representative at the Sao Paulo Bienal in 1998 \cite{biography}.
+
+\section{Why him?}
+
+I chose these images because I like how he draws objects with non-natural sizes and colours.\\
+
+What I have learnt from researching about this artist is that the YBA stands for Young British Artists, and it is the name of a loose group of visual artists that first started to exhibit together in London in 1988. I also learnt that there are a lot of impressive artists which I didn't know of.
+
+\nocite{biography}
+\nocite{country}
+\nocite{MGM}
+
+\pagebreak
+
+\section{Some of his work}
+
+\begin{figure}[!htb] 
+        % read manual to see what [ht] means and for other possible options
+        \centering \includegraphics[width=0.3\columnwidth]{bottle}
+        % note that in above figure file name, "sr_setup",
+        % the file extension is missing. LaTeX is smart enough to find
+        % apropriate one (i.e. pdf, png, etc.)
+        % You can add this extention yourself as it seen below
+        % both notations are correct but above has more flexibility
+        %\includegraphics[width=1.0\columnwidth]{sr_setup.pdf}
+        \caption{
+                \label{fig:bottle} % spaces are big no-no withing labels
+                % things like fig: are optional in the label but it helps
+                % to orient yourself when you have multiple figures,
+                % equations and tables
+                Untitled (pink baby bottle), 2015 Acrylic on aluminum.
+        }
+\end{figure}
+
+\begin{figure}[!htb] 
+        % read manual to see what [ht] means and for other possible options
+        \centering \includegraphics[width=0.3\columnwidth]{bucket}
+        % note that in above figure file name, "sr_setup",
+        % the file extension is missing. LaTeX is smart enough to find
+        % apropriate one (i.e. pdf, png, etc.)
+        % You can add this extention yourself as it seen below
+        % both notations are correct but above has more flexibility
+        %\includegraphics[width=1.0\columnwidth]{sr_setup.pdf}
+        \caption{
+                \label{fig:bucket} % spaces are big no-no withing labels
+                % things like fig: are optional in the label but it helps
+                % to orient yourself when you have multiple figures,
+                % equations and tables
+                Pricks, 2000 Acrylic on canvas.
+        }
+\end{figure}
+
+\section{Bibliography}
+
+\begin{thebibliography}{99}
+
+\bibitem{biography}
+Sir Michael Craig-Martin RA
+    \href{https://www.royalacademy.org.uk/art-artists/name/michael-craig-martin-ra}{https://www.royalacademy.org.uk/art-artists/name/michael-craig-martin-ra}
+
+\bibitem{favourite}
+My favourite painting: Martin Roth
+    \href{https://www.countrylife.co.uk/luxury/art-and-antiques/my-favourite-painting-martin-roth-82466}{https://www.countrylife.co.uk/luxury/art-and-antiques/my-favourite-painting-martin-roth-82466}
+
+\bibitem{MCM}
+Michael Craig-Martin
+    \href{https://www.michaelcraigmartin.co.uk/work-index}{https://www.michaelcraigmartin.co.uk/work-index}
+
+
+\end{thebibliography}
+
+
+\end{document}

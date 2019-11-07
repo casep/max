@@ -1,0 +1,74 @@
+%
+% File eamt18.tex
+%
+
+\documentclass[11pt,final]{article}
+\usepackage{cs501R}
+\usepackage{times}
+\usepackage{url}
+
+\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
+\usepackage{latexsym}
+\usepackage[small,bf]{caption} % added MLF 20171211
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+%%% YOUR PACKAGES BELOW THIS LINE %%%
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+\usepackage{cite}
+\usepackage{listings}
+
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
+
+%% MJM
+
+\title{Sir Michael Craig-Martin RA}
+
+\author{Max Sepulveda\\
+  \date{\today} \\
+  {\tt carlos.sepulveda.farfan@gmail.com}}
+
+\begin{document}
+\maketitle
+
+
+\section{His history}
+
+Michael Craig-Martin grew up and was educated in the United States. He studied Fine Art at the Yale University School of Art and Architecture and, on completion of his studies in 1966, he moved to London where he has lived ever since. His early work drew together a variety of objects and materials. An Oak Tree, 1973, is one of his best known early works. His more recent work, which includes painting, printmaking, installations projections and drawing, continues to depict common place objects.
+
+Craig-Martin had his first one man exhibition at the Rowan Gallery in London in 1969. Since then he has shown regularly both in the UK and abroad. in 1991 he showed wall drawings at the Museum of Modern Art in New York. Group exhibitions include the British conceptual exhibition at the Hayward Gallery in 1972, The New Art, and the 1996 exhibition Un siecle de sculpture anglaise at the Jeu de Paume in Paris. He was the British representative at the Sao Paulo Bienal in 1998.
+
+\section{Why him?}
+
+I chose this images because i like how he draws objects with non-natural sizes and colours.\\
+
+What I have learnt from researching about this artist is that the YBA stands for Young British Artists, and it is the name of a loose group of visual artists that first started to exhibit together in London in 1988. I also learnt that there are a lot of impressive artists which I didn't know of.
+
+\nocite{biography}
+\nocite{country}
+\nocite{MGM}
+
+\section{Some of his work}
+
+\includegraphics[width=1.5in]{bottle}
+\includegraphics[width=1.5in]{corkscrew}
+\includegraphics[width=1.5in]{bucket}
+\includegraphics[width=1.5in]{Eye-of-the-Storm}
+
+\section{References}
+
+\bibliography{cs501R}
+\bibliographystyle{cs501R}
+
+\end{document}
